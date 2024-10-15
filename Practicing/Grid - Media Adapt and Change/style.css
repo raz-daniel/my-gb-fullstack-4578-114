@@ -1,0 +1,44 @@
+html, body {
+height: 50%;
+margin: 0;
+padding: 0;
+border: 2px solid pink;
+font-size: x-large;
+text-align: center;
+}
+
+.container {
+    height: 100%;
+    display: grid;
+    border: 2px solid black;
+    ;
+}
+
+.container div {
+    height: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.container > div:nth-child(1) {
+    background-color: red;
+}
+
+.container > div:nth-child(2) {
+    background-color: green;
+}
+
+.container > div:nth-child(3) {
+    background-color: blue;
+}
+
+.container > div:nth-child(4) {
+    background-color: yellow;
+}
+
+@media (.container > 760 ) {
+
+}
